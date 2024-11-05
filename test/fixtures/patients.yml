@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Sca: 9.99
+  Scr: 9.99
+  Uca: 9.99
+  Ucr: 9.99
+  Ratio: 9.99
+
+two:
+  Sca: 9.99
+  Scr: 9.99
+  Uca: 9.99
+  Ucr: 9.99
+  Ratio: 9.99
