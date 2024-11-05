@@ -79,6 +79,8 @@ GEM
     benchmark (0.3.0)
     bigdecimal (3.1.8)
     bindex (0.8.1)
+    bootsnap (1.18.4)
+      msgpack (~> 1.2)
     brakeman (6.2.2)
       racc
     builder (3.3.0)
@@ -130,6 +132,7 @@ GEM
     matrix (0.4.2)
     mini_mime (1.1.5)
     minitest (5.25.1)
+    msgpack (1.7.3)
     net-imap (0.5.0)
       date
       net-protocol
@@ -303,6 +306,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  bootsnap
   brakeman
   capybara
   debug
@@ -320,5 +324,8 @@ DEPENDENCIES
   tzinfo-data
   web-console
 
+RUBY VERSION
+   ruby 3.2.2p53
+
 BUNDLED WITH
-   2.5.21
+   2.4.10
